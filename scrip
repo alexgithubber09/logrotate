@@ -1,0 +1,10 @@
+/home/test/sample.log {
+    rotate 10
+    missingok
+    hourly
+    compress
+    notifempty
+    delaycompress
+    maxage 30
+    create 0644 root root
+}
